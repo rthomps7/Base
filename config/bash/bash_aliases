@@ -1,6 +1,6 @@
 #!/bin/bash
 alias cl='clear; ls'
-alias todo='todo.py rft'
+alias TODO='todo.py rft'
 
 alias ll='ls -la'
 ls() { 
@@ -14,6 +14,9 @@ alias vis='vim "+set si"'
 alias apt-get="sudo apt-get"
 alias grep='grep --color=auto'
 alias mkdir='mkdir -p'
-alias TODO='more ~/Dropbox/TODO'
-alias VTODO='vim ~/Dropbox/TODO'
-alias vt='VTODO'
+
+# Notes
+alias todo='more ~/Dropbox/notes/TODO'
+alias vt='vim ~/Dropbox/notes/TODO'
+alias food='more ~/Dropbox/notes/food'
+alias vf='vim ~/Dropbox/notes/food'
