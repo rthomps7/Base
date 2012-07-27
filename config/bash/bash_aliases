@@ -15,5 +15,5 @@ alias apt-get="sudo apt-get"
 alias grep='grep --color=auto'
 alias mkdir='mkdir -p'
 alias TODO='more ~/Dropbox/TODO'
-alias VTODO='vim ~/Base/TODO'
+alias VTODO='vim ~/Dropbox/TODO'
 alias vt='VTODO'
