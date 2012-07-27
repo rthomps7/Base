@@ -1,6 +1,0 @@
-Wikify review
-configure coding environment:
-  . Git repo
-  . Develop C++ LOG, CHECK, and FLAG libraries
-  . Develop Python LOG, CHECK, and FLAG libraries
-  . Deploy code onto ND machines via git repo
