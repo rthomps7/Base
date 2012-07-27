@@ -1,0 +1,19 @@
+#!/bin/bash
+alias cl='clear; ls'
+alias todo='todo.py rft'
+
+alias ll='ls -la'
+ls() { 
+  if [[ $1 == "-la" ]]; 
+  then command ls $@ | more; else command ls "$@"; fi; 
+}
+alias cd..='cd ..'
+alias vi='vim'
+alias svi='sudo vi'
+alias vis='vim "+set si"'
+alias apt-get="sudo apt-get"
+alias grep='grep --color=auto'
+alias mkdir='mkdir -p'
+alias TODO='more ~/Base/TODO'
+alias VTODO='vim ~/Base/TODO'
+alias vt='VTODO'

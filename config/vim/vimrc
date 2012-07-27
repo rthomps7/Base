@@ -1,0 +1,84 @@
+
+set softtabstop=2
+set shiftwidth=2
+set tabstop=2
+set expandtab
+
+set nocompatible
+
+set number
+set ruler
+syntax on
+
+" Mouse click
+set mouse=a
+
+" Set encoding
+set encoding=utf-8
+
+" Whitespace stuff
+set nowrap
+set tabstop=2
+set shiftwidth=2
+set softtabstop=2
+set expandtab
+set list listchars=tab:\ \ ,trail:·
+set list
+
+" Searching
+set hlsearch
+set incsearch
+set ignorecase
+set smartcase
+
+" Tab completion
+set wildmode=list:longest,list:full
+
+" Status bar
+set laststatus=2
+
+" make uses real tabs
+au FileType make set noexpandtab
+
+" add json syntax highlighting
+au BufNewFile,BufRead *.json set ft=javascript
+
+" allow backspacing over everything in insert mode
+set backspace=indent,eol,start
+
+" load the plugin and indent settings for the detected filetype
+" filetype indent plugin on
+set autoindent
+set cindent
+
+" Opens an edit command with the path of the currently edited file filled in
+" Normal mode: <Leader>e
+map <Leader>e :e <C-R>=expand("%:p:h") . "/" <CR>
+
+" Enable syntastic syntax checking
+let g:syntastic_enable_signs=1
+let g:syntastic_quiet_warnings=1
+
+" Directories for swp files
+set backupdir=~/.vim/backup
+set directory=~/.vim/backup
+
+" MacVIM shift+arrow-keys behavior (required in .vimrc)
+let macvim_hig_shift_movement = 1
+
+" Show (partial) command in the status line
+set showcmd
+
+set guioptions=aAce
+set guifont=Consolas:h13
+
+set wrap
+set linebreak
+set textwidth=0
+set wrapmargin=0
+set fo-=t
+
+nmap <leader>t :NERDTree<cr>
+
+" Turn off sounds
+set vb
