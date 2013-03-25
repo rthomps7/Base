@@ -89,3 +89,6 @@ nmap <leader>t :NERDTree<cr>
 
 " Turn off sounds
 set vb
+
+" Set cursor to center of screen
+set scrolloff=999
