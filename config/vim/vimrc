@@ -2,6 +2,8 @@
 highlight OverLength ctermbg=red ctermfg=white guibg=#592929
 match OverLength /\%81v.\+/
 
+colorscheme desert
+
 set softtabstop=2
 set shiftwidth=2
 set tabstop=2
@@ -57,6 +59,8 @@ set cindent
 " Opens an edit command with the path of the currently edited file filled in
 " Normal mode: <Leader>e
 map <Leader>e :e <C-R>=expand("%:p:h") . "/" <CR>
+map <Leader>v :vsplit <C-R>=expand("%:p:h") . "/" <CR>
+map <Leader>s :split <C-R>=expand("%:p:h") . "/" <CR>
 map <Leader>r :r <C-R>=expand("%:p:h") . "/" <CR>
 
 " Set nopaste
