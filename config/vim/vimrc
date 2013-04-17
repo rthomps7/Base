@@ -93,4 +93,3 @@ nmap <leader>t :NERDTree<cr>
 
 " Turn off sounds
 set vb
-
