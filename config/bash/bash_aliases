@@ -2,6 +2,7 @@
 alias cl='clear; ls'
 alias TODO='todo.py rft'
 
+alias ls='ls -G'
 alias ll='ls -la'
 alias cd..='cd ..'
 alias vi='vim'
