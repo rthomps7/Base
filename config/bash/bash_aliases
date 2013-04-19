@@ -8,7 +8,6 @@ alias cd..='cd ..'
 alias vi='vim'
 alias svi='sudo vi'
 alias vis='vim "+set si"'
-alias apt-get="sudo apt-get"
 alias grep='grep --color=auto'
 alias mkdir='mkdir -p'
 alias todo='more ~/Dropbox/notes/TODO.txt'
