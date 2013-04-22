@@ -48,6 +48,8 @@ au FileType make set noexpandtab
 
 " add json syntax highlighting
 au BufNewFile,BufRead *.json set ft=javascript
+" add gremlin syntax highlighting
+au BufNewFile,BufRead *.dump set filetype
 
 " allow backspacing over everything in insert mode
 set backspace=indent,eol,start
@@ -94,3 +96,5 @@ nmap <leader>t :NERDTree<cr>
 
 " Turn off sounds
 set vb
+
+
