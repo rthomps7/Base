@@ -8,7 +8,6 @@ set softtabstop=2
 set shiftwidth=2
 set tabstop=2
 set expandtab
-
 set nocompatible
 
 set number
@@ -45,6 +44,9 @@ set laststatus=2
 
 " make uses real tabs
 au FileType make set noexpandtab
+" 4 spaces for python
+au Filetype python set shiftwidth=4 tabstop=4 softtabstop=4
+
 
 " add json syntax highlighting
 au BufNewFile,BufRead *.json set ft=javascript
