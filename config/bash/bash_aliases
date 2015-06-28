@@ -3,7 +3,7 @@ alias cl='clear; ls'
 alias TODO='todo.py rft'
 
 alias ll='ls -la'
-alias ls='ls -G --color=auto'
+alias ls='ls -G'
 alias cd..='cd ..'
 alias vi='vim'
 alias svi='sudo vi'
