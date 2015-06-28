@@ -13,7 +13,6 @@ set nocompatible
 set number
 set ruler
 syntax on
-set term=xtermc
 
 " Mouse click
 set mouse=a
@@ -102,3 +101,17 @@ set vb
 " Highlight color
 hi Search cterm=NONE ctermfg=grey ctermbg=blue
 hi Search guibg=peru guifg=wheat
+
+set t_Co=256
+set colorcolumn=81
+highlight ColorColumn ctermbg=236
+
+"augroup collumnLimit
+"  autocmd!
+"  highlight CollumnLimit ctermbg=DarkGrey guibg=DarkGrey
+"  let collumnLimit = 79 " feel free to customize
+"  let pattern =
+"        \ '\%<' . (collumnLimit+1) . 'v.\%>' . collumnLimit . 'v'
+"  let w:m1=matchadd('CollumnLimit', pattern, -1)
+"augroup END
+
