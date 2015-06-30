@@ -25,7 +25,7 @@ dirs.forEach(function(d) {
                 t.replace(/\n/g, '\\n').replace(/\t/g, '\\t')
                  .replace(/"/g, '\\"'));
     console.log('git pull');
-    console.log('cd ..');
+    console.log('cd -');
 
   } catch(e) {
     if (d[0] != '.') notFound.push(d);
